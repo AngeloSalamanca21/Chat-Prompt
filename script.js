@@ -28,7 +28,7 @@ const SELECTED_MODEL = "gemma-2b-it-q4f32_1-MLC";
           $loading?.parentNode?.removeChild($loading);
           $button.removeAttribute("disabled");
           addMessage(
-            "¡Hola! Soy un Chat que te ayuda a generar prompt´s. ¿En qué puedo ayudarte hoy?",
+            "¡Hola! Soy un Chat que te ayuda a mejorar tus prompts. ¿En qué puedo ayudarte hoy?",
             "bot"
           );
           $input.focus();
